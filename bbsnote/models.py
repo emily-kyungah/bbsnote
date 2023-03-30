@@ -23,5 +23,5 @@ class Comment(models.Model):
     class Meta:
         ordering = ['-create_date']
 
-    def __str__(self):
-        return f'[{self.board.id}:{self.board.subject} ] {self.content}'
+    # def __str__(self):
+    #     return f'[{self.board.id}:{self.board.subject} ] {self.content}'
